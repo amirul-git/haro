@@ -9,7 +9,7 @@
     <section
       class="flex justify-between items-center text-2xl font-bold px-4 py-6"
     >
-      <h1>Haro</h1>
+      <img class="h-12" src="./img/logo.png" alt="" />
       <button>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -27,21 +27,25 @@
         </svg>
       </button>
     </section>
-    <section class="h-72 bg-[#5E5A56] flex items-center justify-center">
-      <div class="text-center">
-        <h2
-          class="text-[13px] font-bold uppercase text-[#b3fbef] mb-[18px] tracking-widest"
-        >
-          Haro Education
-        </h2>
+    <section
+      class="h-72 md:h-96 lg:h-[640px] bg-[#5E5A56] flex items-center justify-center relative"
+    >
+      <img
+        class="block h-[100%] absolute top-0 left-0 w-[100%] object-cover"
+        src="./img/hero.jpeg"
+        alt=""
+      />
+      <div
+        class="bg-slate-900 absolute top-0 left-0 bottom-0 right-0 opacity-60"
+      ></div>
+      <div class="absolute text-center p-8 md:p-16 lg:p-24">
         <h3
-          class="text-[40px] text-[#e1dddd] font-bold leading-tight mb-[10px] max-w-[510px]"
+          style="line-height: 1.2"
+          class="text-xl text-white font-bold mb-[10px] text-center sm:text-3xl lg:text-5xl"
         >
-          Where brilliant coders are formed
+          Together, as a community, empowering students to achieve their utmost
+          potential.
         </h3>
-        <p class="text-xl capitalize text-[#b3fbef] font-bold mb-[10px]">
-          For Anyone. At Anywhere.
-        </p>
       </div>
     </section>
     <section class="text-center p-12 bg-[#f8f8f8]">
