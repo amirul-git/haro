@@ -675,6 +675,10 @@ html {
   height: 100%;
 }
 
+.max-h-\[350px\] {
+  max-height: 350px;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -701,6 +705,10 @@ html {
 
 .w-\[80px\] {
   width: 80px;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-4xl {
